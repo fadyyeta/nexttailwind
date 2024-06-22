@@ -1,3 +1,4 @@
+"use client";
 import React, { useState, useEffect } from "react";
 import ImageCard from "./components/ImageCard";
 import ImageSearch from "./components/ImageSearch";
