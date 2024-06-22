@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import ImageCard from "./components/ImageCard";
 import ImageSearch from "./components/ImageSearch";
 export default function Home() {
-	const [images, setImages] = useState([]);
+	const [images, setImages] = useState<any[]>([]);
 	const [isLoading, setIsLoading] = useState(true);
 	const [term, setTerm] = useState("");
 
